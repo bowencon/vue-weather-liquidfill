@@ -1,0 +1,37 @@
+*{ margin:0; padding:0; list-style:none; outline:none;}
+i,b,em{font-weight:400;font-style:normal;}
+ul,ol,dl,li,form{ margin:0; padding:0;}
+ul>li, ol>li{
+    list-style: none;
+}
+a,a img{text-decoration:none; border:none;}
+a:link{cursor:pointer;}
+a:hover{text-decoration:none;}
+/* a:active,a:visited{} */
+a:focus,input[type=button],input[type=submit]{outline:none;}
+input[type="submit"],input[type="reset"],input[type="button"],button{-webkit-appearance:none;}
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+table{border-collapse:collapse;border-spacing:0;/*table-layout:fixed;*/}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    line-height: 2;
+}
+body::-webkit-scrollbar {
+    width: 0.618em;
+    height: 0.618em;
+    background: #021f32;
+}
+body::-webkit-scrollbar-track {
+    background: rgba(2, 31, 50, 1);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(39, 182, 255, .618);
+    border-radius: 20px;
+}
+body::-webkit-scrollbar-corner {
+    background-color: #000;
+}
