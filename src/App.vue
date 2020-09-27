@@ -25,9 +25,9 @@ export default {
   			{
 				type: 'typhoon',
   				name: '台风预警',
-  				value: '100m/s',	//例：100m/s
-  				text: '台风',		//台风名称	
-  				tips: 'yellow' //red, yellow, blue, orange
+  				value: '',	//例：100m/s
+  				text: '无台风',		//台风名称	
+  				tips: '' //red, yellow, blue, orange
 			},
 			{
 				type: 'heavy', //暴雨类型
@@ -39,9 +39,9 @@ export default {
   			{
 				type: 'high-temp',
   				name: '高温预警',
-  				value: '27°C',
-  				text: '正常',
-  				tips: '' //red, yellow, blue, orange, 空值为 green
+  				value: '37°C',
+  				text: '高温',
+  				tips: 'yellow' //red, yellow, blue, orange, 空值为 green
   			}, 
   			{
 				type: 'flood',

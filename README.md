@@ -13,7 +13,7 @@ npm 导入
 在组件中使用
 ### `<weatherLiquidfill :titles="warnTitle" :options="warnList"></weatherLiquidfill>`
 ##
-#####本次更新优化了插件的类型配置，dataList内每个类型可单独使用，并可以自定义类型个数, 最多5种类型[weather, typhoon, heavy, high-temp, flood]
+#####dataList内每个类型可单独使用，并可以自定义类型个数, 最多5种类型[weather, typhoon, heavy, high-temp, flood]
 ####Examples
 ```
 
@@ -85,3 +85,4 @@ npm 导入
 ##
 #### [Configuration Reference] See [https://www.npmjs.com/~bowencon](https://www.npmjs.com/~bowencon).
 #### https://github.com/bowencon/
+![Image text](https://github.com/bowencon/vue-weather-liquidfill/blob/master/preview.jpg)
